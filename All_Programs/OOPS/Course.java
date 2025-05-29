@@ -1,7 +1,7 @@
 import java.util.*;
 public class Course
 {
-    Static maxCapacity;
+    static int maxCapacity;
 
     String courseName;
     int enrolledStudents;
@@ -33,9 +33,8 @@ public class Course
     {
         if (this.enrolledStudents < maxCapacity)
         {
-            this.studentName= studentName;
             this.enrolledStudents++;
-            System.out.println(this.studentName +" is successfully enrolled in course "+ this.courseName);
+            System.out.println(studentName +" is successfully enrolled in course "+ this.courseName);
         }
         else
         {
@@ -58,7 +57,7 @@ public class Course
 
     public static void main(String...args)
     {
-        Course newCourse= new Course("Web_Development", "");
+        Course newCourse= new Course("Web_Development");
         Scanner sc=new Scanner(System.in);
         System.out.println("Max Capacity of students :");
         Course.setMaxCapacity(sc.nextInt());
