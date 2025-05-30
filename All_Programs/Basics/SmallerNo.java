@@ -9,7 +9,7 @@ public class SmallerNo{
 
         SmallerNo small=new SmallerNo();
         int min= small.min(num1, num2);
-        System.out.println("")
+        System.out.println("Minimum number is "+min);
     }
 
     public int min(int num1, int num2){
