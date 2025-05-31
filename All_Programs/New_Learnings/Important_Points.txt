@@ -1,0 +1,1 @@
+1. A variable declared inside do block in a do while block is not availailbe inside the while condition in java.
