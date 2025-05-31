@@ -7,7 +7,6 @@ class PrintEven{
             System.out.print("Enter array element at index "+i+": ");
             numArr[i]=sc.nextInt();
         }
-        int sum=0;
         for( int i=0; i<numArr.length; i++){
             if(numArr[i]%2!=0)
                 continue;
