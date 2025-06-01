@@ -15,7 +15,7 @@ class Circle{
     double getArea(){
         return Math.PI*Math.pow(radius,2);
     }
-    
+    @Override
     public String toString(){
         return "Circle Props:\nRadius: "+radius
                         +",\nCircumference: "+getCircumference()
