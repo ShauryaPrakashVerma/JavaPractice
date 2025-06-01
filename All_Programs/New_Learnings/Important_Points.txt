@@ -7,3 +7,7 @@ non static methods cant be accessed directly by name from static methods. In ord
 Static methods can be accessed from static methods.
 Static methods can be accessed from non-static methods.
 
+https://chatgpt.com/share/683c5574-d188-8003-9c57-0c62e359e78e  //circle.java in Basics folder
+
+
+//Maths classes in detail https://chatgpt.com/share/683c6138-30f4-8003-92ad-d77f5a64b0d7
