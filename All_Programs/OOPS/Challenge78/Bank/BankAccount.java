@@ -3,12 +3,12 @@ package Challenge78.Bank;
 class BankAccount{
 
     private String accountNumber;
-    private String accoutnHolderName;
+    private String accountHolderName;
     private double balance;
 
-    public BankAccount(String accountNumber, String accoutnHolderName, double balance) {
+    public BankAccount(String accountNumber, String accountHolderName, double balance) {
         this.accountNumber = accountNumber;
-        this.accoutnHolderName = accoutnHolderName;
+        this.accountHolderName = accountHolderName;
     }
 
     
