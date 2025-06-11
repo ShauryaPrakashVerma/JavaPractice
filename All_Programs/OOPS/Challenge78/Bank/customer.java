@@ -2,7 +2,7 @@ package Challenge78.Bank;
 
 // import Challenge78.Bank.BankAccount;
 
-class Customer{
+class customer{
     public static void main(String[] args) {
         BankAccount account=new BankAccount("001","Shaurya Prakash");
         account.depositMoney(100);
