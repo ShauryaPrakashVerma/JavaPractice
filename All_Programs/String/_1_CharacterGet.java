@@ -1,6 +1,5 @@
 // Java program to get a specific character
 // from a given String at a specific index
-
 class CharacterGet{
 
     // Driver code
